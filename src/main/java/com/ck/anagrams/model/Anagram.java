@@ -8,7 +8,7 @@ import lombok.*;
 @EqualsAndHashCode
 @ToString
 public class Anagram {
-    public String id;
-    public String word;
-    public String orderedChars;
+    private String id;
+    private String word;
+    private String orderedChars;
 }
